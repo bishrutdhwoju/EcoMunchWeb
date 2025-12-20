@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build output
+client/dist/
+client/dist-ssr/
+
+# Uploads (user-generated content)
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.local
+Thumbs.db
+
+# Test output files
+server/error.txt
+server/jest_output.txt
+server/jest_output_utf8.txt
+server/test_output.txt
+
+# Project documentation (not part of source code)
+Project_Documentation.md
+
+# Commit script (not part of source code)
+push_commits.ps1
